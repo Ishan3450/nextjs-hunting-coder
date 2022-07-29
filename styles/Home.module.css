@@ -4,7 +4,7 @@
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
+  padding: 6rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -16,7 +16,7 @@
   display: flex;
   flex: 1;
   padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
+  border-top: 1px solid rgb(211, 211, 211);
   justify-content: center;
   align-items: center;
 }
@@ -51,7 +51,7 @@
 }
 
 .description {
-  margin: 4rem 0;
+  margin: 2rem 0 5rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
 }
@@ -70,7 +70,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 800px;
+  max-width: 600px;
 }
 
 .card {
@@ -82,7 +82,8 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+  max-width: 500px;
+  background-color: rgba(124, 122, 122, 0.159);
 }
 
 .card:hover,
@@ -90,6 +91,8 @@
 .card:active {
   color: #0070f3;
   border-color: #0070f3;
+  background-color: white;
+  /* color: black; */
 }
 
 .card h2 {
@@ -114,3 +117,8 @@
     flex-direction: column;
   }
 }
+
+.boldForNavItems a{
+  font-weight: 600;
+}
+
